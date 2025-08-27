@@ -2,8 +2,8 @@
 POST http://localhost:8080/realms/fullcycle-realm/protocol/openid-connect/token
 Content-Type: application/x-www-form-urlencoded
 
-username=user@user.com
-&password=secret
+username=psgvaz@gmail.com
+&password=123
 &grant_type=password
 &client_id=fullcycle-client
 
@@ -12,8 +12,8 @@ username=user@user.com
 POST http://localhost:8080/realms/fullcycle-realm/protocol/openid-connect/token
 Content-Type: application/x-www-form-urlencoded
 
-username=user@user.com
-&password=secret
+username=psgvaz@gmail.com
+&password=123
 &grant_type=password
 &client_id=fullcycle-client
 &scope=openid
@@ -24,5 +24,5 @@ Content-Type: application/x-www-form-urlencoded
 
 grant_type=authorization_code
 &client_id=fullcycle-client
-&code=d803812a-1cce-4d38-9d12-a33f143f5ee0.48ce3bf7-ef07-4aab-bf41-5b7726c97e56.34b28fed-8773-41a4-bfde-bf98c8950b26
+&code=abda4746-d1b0-4bbc-895b-d492b6b97d21.d8559b5f-59eb-4ff6-91b8-f5d5c962b487.0dd57284-01cc-487a-a60d-f3153a228074
 &redirect_uri=http://localhost:3000/callback
